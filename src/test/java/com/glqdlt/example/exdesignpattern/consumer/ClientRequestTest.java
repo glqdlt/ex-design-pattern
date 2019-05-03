@@ -29,7 +29,7 @@ public class ClientRequestTest {
     public void callStragyNull() {
         GreetingStragy greetingStragy = new GreetingStragy(null);
         String res = greetingStragy.echo("jhun");
-        Assert.assertEquals("hello jhun", res);
+        Assert.assertEquals("Hello jhun", res);
     }
 
     @Test
