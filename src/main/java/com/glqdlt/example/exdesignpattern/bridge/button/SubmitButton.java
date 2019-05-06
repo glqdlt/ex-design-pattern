@@ -1,6 +1,6 @@
-package com.glqdlt.example.exdesignpattern.bridge;
+package com.glqdlt.example.exdesignpattern.bridge.button;
 
-public class SubmitButton extends Button {
+public class SubmitButton extends ButtonBase {
 
     private SubmitForm submitForm;
 

@@ -1,4 +1,4 @@
-package com.glqdlt.example.exdesignpattern.bridge;
+package com.glqdlt.example.exdesignpattern.bridge.button;
 
 public class SubmitForm {
     private String id;

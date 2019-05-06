@@ -1,8 +1,8 @@
-package com.glqdlt.example.exdesignpattern.bridge.window;
+package com.glqdlt.example.exdesignpattern.bridge.device.window;
 
-import com.glqdlt.example.exdesignpattern.bridge.ClickCallback;
-import com.glqdlt.example.exdesignpattern.bridge.SubmitButton;
-import com.glqdlt.example.exdesignpattern.bridge.SubmitForm;
+import com.glqdlt.example.exdesignpattern.bridge.button.ClickCallback;
+import com.glqdlt.example.exdesignpattern.bridge.button.SubmitButton;
+import com.glqdlt.example.exdesignpattern.bridge.button.SubmitForm;
 
 public final class WindowSubmitButton extends SubmitButton implements WindowButton {
 

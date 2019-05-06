@@ -1,7 +1,7 @@
-package com.glqdlt.example.exdesignpattern.bridge.window;
+package com.glqdlt.example.exdesignpattern.bridge.device.window;
 
-import com.glqdlt.example.exdesignpattern.bridge.CancelButton;
-import com.glqdlt.example.exdesignpattern.bridge.ClickCallback;
+import com.glqdlt.example.exdesignpattern.bridge.button.CancelButton;
+import com.glqdlt.example.exdesignpattern.bridge.button.ClickCallback;
 
 public class WindowCancelButton extends CancelButton implements WindowButton{
 
