@@ -13,6 +13,8 @@ public class CurriedTest {
 
     Function<Integer, Function<Integer, Integer>> aaaa = x -> y -> x + y;
 
+    Function<Integer, Function<Integer, Integer>> aaa2 = x -> {return y -> x + y;};
+
     Function<Integer, Function<Integer, Integer>> bbbb = (x) -> {
         return new Function<Integer, Integer>() {
             @Override
